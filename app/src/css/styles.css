@@ -1,0 +1,213 @@
+:root {
+  --form--blue: #5ca0c1;
+  --form--orange: #fd9a00;
+  --form--gold: #fcd000;
+  --form--yello: #ffcb7a;
+  --form--brown: #5f5f5f;
+}
+@font-face {
+    font-family: "Minecraft-Regular";
+    src:url("../fonts/Minecraft-Regular.otf") format("otf");
+}
+
+body {
+  background-color: lightblue;
+  font-family: avenir, sans-serif;
+  margin: 0px;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2b6e5eff-aa41-4d5f-9eeb-28580e3f63dd/d5ac1hr-5556e8f3-2a9c-4c42-9a0c-8b23818de5a1.png/v1/fill/w_900,h_563,q_80,strp/minecraft_background_forest_1_by_michael3216_d5ac1hr-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTYzIiwicGF0aCI6IlwvZlwvMmI2ZTVlZmYtYWE0MS00ZDVmLTllZWItMjg1ODBlM2Y2M2RkXC9kNWFjMWhyLTU1NTZlOGYzLTJhOWMtNGM0Mi05YTBjLThiMjM4MThkZTVhMS5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.qMeecY_GiyzBAEI5_PODrsfSru203vvSG1fLkU00Tdk);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#status li{
+  padding: 5px 10px;
+  font-size: 20px;
+  color: #fff;
+  background: #616161;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1 {
+  color: var(--form--orange);
+  position: relative;
+  font-size: 50px;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+}
+img{
+max-height: 50px;
+}
+img{
+  animation: waving 2s;
+  animation-iteration-count: infinite;
+  max-height: 50px;
+}
+#messages li:nth-child(odd)::before{
+  background-image: url(https://img2.minebook.me/gallery/7366_wood.gif);
+  background-blend-mode: lighten;
+}
+#messages li:before{
+  content: "";
+  background-image: url(https://orig00.deviantart.net/4d41/f/2011/118/4/c/minecraft_grass_block_by_blowjoe-d3f33pa.gif);
+  background-image: url(https://66.media.tumblr.com/88025a4c5fb08fa35d673be0d6901aa7/tumblr_inline_pmu29x9wnx1wuj82d_540.gif);
+  background-size: contain;
+  width: 40px;
+  background-repeat: no-repeat;
+  height: 40px;
+  position: absolute;
+  margin-left: -50px;
+  margin-top: -10px;
+  /* opacity: 0.8; */
+}
+
+@keyframes waving {
+	0% {
+		transform: rotate(0deg) translate(0px);
+	}
+	25% {
+		transform: rotate(-5deg) translate(0px);
+	}
+  75% {
+    transform: rotate(5deg) translate(0px);
+  }
+  100% {
+    transform: rotate(0deg) translate(0px);
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 13px Helvetica, Arial;
+  /* font-family:"Minecraft-Regular"; */
+}
+
+.username{
+  top: 65px;
+}
+.username input{
+width: 30%;
+
+}
+
+form {
+  padding: 3px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+form input {
+  border: 0;
+  padding: 10px;
+  width: 90%;
+  margin-right: .5%;
+  font-size: 30px;
+}
+
+form button {
+  width: 9%;
+  background: rgb(130, 224, 255);
+  border: none;
+  padding: 10px;
+  font-size: 30px;
+}
+
+#messages {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  /* margin-left: 5%; */
+  margin: auto;
+  max-width: 70%;
+}
+
+#messages li {
+  padding: 5px 10px;
+  font-size: 20px;
+  background: var(--form--orange);
+  max-width: 20%;
+  border-radius: 5px;
+  margin-bottom: 3px;
+}
+
+#messages li:nth-child(odd) {
+    background: lightblue;
+    margin-left: auto;
+  }
+
+.blow li{
+animation: blow .5s ease infinite;
+}
+
+
+@keyframes blow {
+0%{background-color: #8c2221}
+10%{background-color: #963434}
+20%{background-color: #9f4746}
+30%{background-color: #b26c6b}
+40%{background-color: #bc7e7e}
+50&{background-color: #c59190}
+60%{background-color: #d9b5b5;}
+70%{background-color: #e2c8c7;}
+80%{background-color: #ecdada;}
+90%{background-color: #f5eded;}
+}
+
+
+  @media (max-width: 30em){
+    body {
+  background-image: url(http://infinigeek.com/assets/8.jpg);
+  background-size: 120%;
+    }
+  form button {
+  width: 28%;
+  }
+  form input {
+    width: 70%;
+  }
+  #messages li{
+  max-width: 70%;
+  }
+  }
+
+
+  @media (min-width: 30em) and (max-width: 55em)  {
+    #messages li{
+    max-width: 70%;
+    }
+  }
+
+
+@media (min-width: 30em) and (max-width: 65em)  {
+body{
+background-image: url(https://i.imgur.com/j0jTf.gif);
+background-size: 250%;
+background-position: 50% 10%;
+}
+form button {
+width: 18%;
+}
+form input {
+  width: 80%;
+}
+}
