@@ -6,21 +6,24 @@
   <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body>
+<body class="start">
 <div class="header">
   <img src="https://pngimage.net/wp-content/uploads/2018/06/steve-head-png-2.png" alt="Steves head smiling at u">
 <h1>Mine chat</h1>
 </div>
+
 <form class="username">
-  <input id="nam" autocomplete="off" type="text" name="" value="">
+  <input id="nam" autocomplete="off" placeholder="Your gamertag" type="text" name="" value="">
 <button type="submit" name="button">Make</button>
 </form>
-
+<div class="main hidden">
   <ul id="messages"></ul>
-  <ul id="status"></ul>
+  <div id="status"></div>
   <form class="form" action="">
     <input id="m" autocomplete="off" /><button>Send</button>
   </form>
+</div>
+
 </body>
 <script src="/socket.io/socket.io.js"></script>
 <script src="https://code.jquery.com/jquery-1.11.1.js"></script>

@@ -41,7 +41,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  /* position: fixed; */
 }
 }
 img{
@@ -101,8 +101,35 @@ body {
 }
 
 .username{
-  top: 65px;
+  bottom: 65px;
+  text-align: center;
 }
+
+.start{
+  background-image: url(http://i.imgur.com/mDNjS.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#status{
+  background-color: #353535d9;
+  color: #fff;
+  bottom: 65px;
+  position: fixed;
+  font-size: 20px;
+  padding: 4px;
+  margin-left: 3px;
+  animation: dissapear 4s;
+  animation-iteration-count: 1;
+}
+
+@keyframes dissapear {
+0%{opacity: 0}
+1%{opacity: 1}
+90%{opacity: .0}
+100%{display: none;}
+}
+
 .username input{
 width: 30%;
 
@@ -150,7 +177,8 @@ form button {
   margin-bottom: 3px;
 }
 
-#messages li:nth-child(odd) {
+#messages li:nth-child(odd){
+ /* .mine{ */
     background: lightblue;
     margin-left: auto;
   }
@@ -209,5 +237,8 @@ width: 18%;
 }
 form input {
   width: 80%;
+}
+#messages li{
+max-width: 70%;
 }
 }

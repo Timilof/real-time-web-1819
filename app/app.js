@@ -33,19 +33,24 @@ io.on('connection', function(socket){
 io.on('connection', function(socket){
 
 socket.on('set user', function(naam){
-  socket.name = naam;
-  gamerTags.push(socket.name);
-  console.log(gamerTags)
-  io.emit('set user', gamerTags);
+  socket.gamerTag = naam;
+  gamerTags.push(naam);
+  io.emit('set user', { gamerTag:socket.gamerTag  });
 })
 
   socket.on('chat message', function(msg){
     if (msg.includes("creeper")){
     console.log('creeper is gonna blow up the chat!');
-  io.emit('creeps', msg);
-    io.emit('chat message', msg);
+    io.emit('creeps');
+    io.emit('chat message', {
+gamerTag:socket.gamerTag,
+message: msg
+});
     }else {
-      io.emit('chat message', msg);
+      io.emit('chat message', {
+  gamerTag:socket.gamerTag,
+  message: msg
+  });
       console.log('Lucky, no creeper in msg')
     }
 
@@ -58,4 +63,4 @@ io.on('disconnect', function(socket){
   });
 });
 
-http.listen(4000, () => console.log(`Example app listening on port ${port}!`))
+http.listen(3000, () => console.log(`Example app listening on port ${port}!`))
