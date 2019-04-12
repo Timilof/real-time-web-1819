@@ -1,9 +1,7 @@
 
 const express = require('express');
 const app = express()
-    .use(express.static('./src/css'))
-    .use(express.static('./src/images'))
-    .use(express.static('./src/js'))
+    .use(express.static('./app/src'))
 
 const http = require('http').Server(app);
 const io = require('socket.io')(http);
