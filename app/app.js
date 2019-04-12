@@ -7,7 +7,7 @@ const app = express()
 
 const http = require('http').Server(app);
 const io = require('socket.io')(http);
-const port = 4000;
+const port = process.env.PORT || 3000;
 
 let gamerTags = [];
 
@@ -63,4 +63,4 @@ io.on('disconnect', function(socket){
   });
 });
 
-http.listen(3000, () => console.log(`Example app listening on port ${port}!`))
+http.listen(port, () => console.log(`Example app listening on port ${port}!`))
