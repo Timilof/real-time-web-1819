@@ -30,7 +30,10 @@ body {
 h1 {
   text-align: center;
 }
-
+.main{
+overflow: hidden;
+overflow-y: scroll;
+}
 h1 {
   color: var(--form--orange);
   position: relative;
