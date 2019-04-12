@@ -2,7 +2,7 @@
 
 ## Mine-chat
 
-mine-chat.herokuapp.com
+http://mine-chat.herokuapp.com
 
 Socket io based real time chat application allowing you to chat with your Minecraft friends all across the world.
 
