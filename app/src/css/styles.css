@@ -205,7 +205,7 @@ animation: blow .5s ease infinite;
 }
 
 
-  @media (max-width: 30em){
+  @media (max-width: 40em){
     body {
   background-image: url(http://infinigeek.com/assets/8.jpg);
   background-size: 120%;
@@ -222,7 +222,7 @@ animation: blow .5s ease infinite;
   }
 
 
-  @media (min-width: 30em) and (max-width: 55em)  {
+  @media (min-width: 40em) and (max-width: 65em)  {
     #messages li{
     max-width: 70%;
     }
