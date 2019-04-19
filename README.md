@@ -1,5 +1,11 @@
 # Real-Time Web 
 
+For this subject I will be building an app that fetches real time weather data and requests videos based on the weather conditions. The users of the app will be able to add these video's to a playlist.
+
+For this subject I will be using the Buienradar (Weather) Youtube Api to collect data which i plan to make my users interact with.
+
+### Data model
+![data model 1](app/src/img/datamodel_1.png)  
 ## Mine-chat
 
 http://mine-chat.herokuapp.com
