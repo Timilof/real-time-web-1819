@@ -1,12 +1,20 @@
-# Real-Time Web @cmda-minor-web · 2018-2019
+# Real-Time Web 
 
-During this course you will learn how to build a **meaningful** real-time application. You will learn techniques to setup an open connection between the client and the server. This will enable you to send data in real-time both ways, at the same time.
+For this subject I will be building an app that fetches real time weather data and requests videos based on the weather conditions. The users of the app will be able to add these video's to a playlist.
 
-## Goals
-- _Deal with real-time complexity_
-- _Handle real-time client-server interaction_
-- _Handle real-time data management_
-- _Handle multi-user support_
+For this subject I will be using the Buienradar (Weather) and the Youtube Api to collect data which i plan to make my users interact with.
+
+### Data model
+![data model 1](app/src/img/datamodel_1.png)    
+
+## week 1
+
+### Mine-chat
+
+http://mine-chat.herokuapp.com
+
+Socket io based real time chat application allowing you to chat with your Minecraft friends all across the world.
+
 
 [Rubric][rubric]
 
