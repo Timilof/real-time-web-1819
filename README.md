@@ -5,8 +5,11 @@ For this subject I will be building an app that fetches real time weather data a
 For this subject I will be using the Buienradar (Weather) and the Youtube Api to collect data which i plan to make my users interact with.
 
 ### Data model
-![data model 1](app/src/img/datamodel_1.png)  
-## Mine-chat
+![data model 1](app/src/img/datamodel_1.png)    
+
+## week 1
+
+### Mine-chat
 
 http://mine-chat.herokuapp.com
 
