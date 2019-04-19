@@ -1,5 +1,7 @@
 # Real-Time Web 
 
+![concept](app/src/img/explanation_1.gif)   
+
 For this subject I will be building an app that fetches real time weather data and requests videos based on the weather conditions. The users of the app will be able to add these video's to a playlist.
 
 For this subject I will be using the Buienradar (Weather) and the Youtube Api to collect data which i plan to make my users interact with.
@@ -43,7 +45,7 @@ Goal: Handle data sharing and multi-user support
 [Exercises](https://github.com/cmda-minor-web/real-time-web-1819/blob/master/week-3.md)  
 [Slides](https://docs.google.com/presentation/d/1SHofRYg87bhdqhv7DQb_HZMbW7Iq1PtqxpdtZHMbMmk/edit?usp=sharing)
 
-> If you're seeing this message on a forked repo, it means one of our students hasn't changed the description yet 😈
+
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
