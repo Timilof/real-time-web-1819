@@ -1,6 +1,6 @@
 # Real-Time Web 
 
-![data model 1](app/src/img/explanation_1.mov)   
+![concept](app/src/img/explanation_1.gif)   
 
 For this subject I will be building an app that fetches real time weather data and requests videos based on the weather conditions. The users of the app will be able to add these video's to a playlist.
 
